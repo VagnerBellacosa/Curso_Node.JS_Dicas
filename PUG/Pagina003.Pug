@@ -1,0 +1,12 @@
+- var pageTitle = "Fluffy"
+- var pageCaption = "A cute pug for you"
+
+h1 #{pageTitle} 
+p #{pageCaption}
+
+mixin image(name, caption)
+  figure
+    img(src=name + ".jpg")
+    figcaption= caption
+	
++image("fluffy", "Fluffy with his cute friend")	

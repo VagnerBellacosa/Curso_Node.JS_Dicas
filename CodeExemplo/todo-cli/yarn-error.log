@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Compaq\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add chalk@2.4.2 commander@2.19.0 figlet@1.2.1 inquirer@6.2.2 shelljs@0.8.3 cli-table@0.3.1
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Calibre2\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;c:\maven\bin;C:\Users\Compaq\AppData\Local\Programs\Python\Python39-32\Scripts\;C:\Users\Compaq\AppData\Local\Programs\Python\Python39-32\;C:\Users\Compaq\AppData\Local\Microsoft\WindowsApps;C:\Users\Compaq\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;;C:\Users\Compaq\.dotnet\tools;C:\Users\Compaq\AppData\Local\GitHubDesktop\bin;C:\Users\Compaq\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Compaq\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:482:28)
+      at ClientRequest.emit (events.js:376:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:482:28)
+      at TLSSocket.emit (events.js:388:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:555:17)
+      at processTimers (internal/timers.js:498:7)
+
+npm manifest: 
+  {
+    "name": "MeuCLi",
+    "version": "1.0.0",
+    "description": "testes de comandos e meu primeiro cli",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
